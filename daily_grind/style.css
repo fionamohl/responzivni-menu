@@ -1,0 +1,54 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(228, 213, 204);
+    height: 70px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    width: 250px;
+    margin-left: 20px;
+}
+
+nav {
+    margin-right: 30px;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color:darkslategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-icon {
+    margin-right: 30px;
+    display: none
+}
+
+.welcome {
+    background:url(../img/background.png);
+    min-height: calc(100vh - 70px);
+    background-size: cover;
+    background-position: center;
+}
+
+
