@@ -45,7 +45,7 @@ nav li a {
 }
 
 .welcome {
-    background:url(../img/background.png);
+    background:url(../daily_grind/img/background.png);
     min-height: calc(100vh - 70px);
     background-size: cover;
     background-position: center;
